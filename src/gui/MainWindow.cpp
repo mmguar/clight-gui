@@ -3,7 +3,9 @@
 //
 
 // You may need to build the project (run Qt uic code generator) to get "ui_MainWindow.h" resolved
-
+#include <iostream>
+#include <fstream>
+#include <iomanip>
 #include "MainWindow.h"
 #include "ui_MainWindow.h"
 #include <QtXml/QDomDocument>
@@ -120,6 +122,10 @@ MainWindow::MainWindow(QWidget *parent) :
     QObject::connect(ui->actionPause, &QAction::triggered, this->clight, &OrgClightClightInterface::Pause);
     QObject::connect(ui->actionPause, &QAction::triggered, trayUi->actionPause, &QAction::setChecked);
 
+    //mmg add action KillNight option    
+
+    QObject::connect(trayUi->actionKillNight, &QAction::triggered, this, &MainWindow::KillNight);
+
     // connect tray actions
     QObject::connect(trayUi->actionInhibit, &QAction::triggered, this->clight, &OrgClightClightInterface::Inhibit);
     QObject::connect(trayUi->actionCapture, &QAction::triggered, this, &MainWindow::Capture);
@@ -216,6 +222,41 @@ void MainWindow::DecBl() {
 
 void MainWindow::IncBl() {
     clight->IncBl(0.05);
+}
+
+void MainWindow::KillNight() {
+//clight->KillNight(4000);
+    int valueOld;
+    if (trayUi->actionKillNight->isChecked()==true){
+        QDBusInterface interfaceOld(CLIGHT, "/org/clight/clight/Conf/Gamma", "org.freedesktop.DBus.Properties"); //, QDBusConnection::sessionBus());
+        QDBusMessage resultOld = interfaceOld.call("Get", "org.clight.clight.Conf.Gamma", "NightTemp");
+        QList<QVariant> argsOld = resultOld.arguments();
+        QVariant firstOld = argsOld.at(0);
+        QDBusVariant dbvFirstOld = firstOld.value<QDBusVariant>();
+        QVariant vFirstOld = dbvFirstOld.variant();
+	valueOld = vFirstOld.value<int>();
+	std::ofstream oldTemp("oldtemp.txt");
+	oldTemp << valueOld;
+	oldTemp.close();
+    }
+    QDBusInterface interface(CLIGHT, "/org/clight/clight/Conf/Gamma", "org.freedesktop.DBus.Properties"); //, QDBusConnection::sessionBus());
+    QDBusMessage result = interface.call("Get", "org.clight.clight.Conf.Gamma", "DayTemp");
+    QList<QVariant> args = result.arguments();
+    QVariant first = args.at(0);
+    QDBusVariant dbvFirst = first.value<QDBusVariant>();
+    QVariant vFirst = dbvFirst.variant();
+    QDBusArgument dbusArgs = vFirst.value<QDBusArgument>();
+    int valueNew = vFirst.value<int>();
+    if (trayUi->actionKillNight->isChecked()==false){
+	    std::ifstream oldTemp ("oldtemp.txt");
+	    oldTemp >> valueOld;
+	    oldTemp.close();
+	    valueNew = valueOld;
+    }
+    
+    QDBusMessage newResult = interface.call("Set", "org.clight.clight.Conf.Gamma", "NightTemp", QVariant::fromValue(QDBusVariant(valueNew)));
+
+
 }
 
 void MainWindow::MenuAutoCalibChanged(bool v) {

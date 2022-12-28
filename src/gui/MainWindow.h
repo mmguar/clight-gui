@@ -43,6 +43,7 @@ public slots:
 
     void IncBl();
     void DecBl();
+    void KillNight();
 
     void MenuAutoCalibChanged(bool v);
     void TrayIconActivated(QSystemTrayIcon::ActivationReason reason);

@@ -1,0 +1,9 @@
+/usr/bin/clight-gui
+/usr/share/icons/hicolor/scalable/status/brightness-high-dark.svg
+/usr/share/icons/hicolor/scalable/status/brightness-high-light.svg
+/usr/share/icons/hicolor/scalable/status/brightness-low-dark.svg
+/usr/share/icons/hicolor/scalable/status/brightness-low-light.svg
+/usr/share/icons/hicolor/scalable/status/brightness-minus-dark.svg
+/usr/share/icons/hicolor/scalable/status/brightness-minus-light.svg
+/usr/share/icons/hicolor/scalable/status/brightness-plus-dark.svg
+/usr/share/icons/hicolor/scalable/status/brightness-plus-light.svg

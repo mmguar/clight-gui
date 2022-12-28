@@ -1,0 +1,23 @@
+{
+	"BUILD_DIR" : "/home/matteo/local/clight-gui/build/clight-gui_autogen",
+	"CMAKE_BINARY_DIR" : "/home/matteo/local/clight-gui/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/matteo/local/clight-gui/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/matteo/local/clight-gui/src",
+	"CMAKE_SOURCE_DIR" : "/home/matteo/local/clight-gui/src",
+	"INCLUDE_DIR" : "/home/matteo/local/clight-gui/build/clight-gui_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/matteo/local/clight-gui/build/clight-gui_ja.qm",
+		"/home/matteo/local/clight-gui/build/clight-gui_en.qm"
+	],
+	"LOCK_FILE" : "/home/matteo/local/clight-gui/build/CMakeFiles/clight-gui_autogen.dir/AutoRcc_translations_EJRQKI7XPS_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "translations" ],
+	"OUTPUT_CHECKSUM" : "EJRQKI7XPS",
+	"OUTPUT_NAME" : "qrc_translations.cpp",
+	"RCC_EXECUTABLE" : "/usr/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/matteo/local/clight-gui/build/CMakeFiles/clight-gui_autogen.dir/AutoRcc_translations_EJRQKI7XPS_Used.txt",
+	"SOURCE" : "/home/matteo/local/clight-gui/build/translations.qrc",
+	"VERBOSITY" : 0
+}

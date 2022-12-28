@@ -1,0 +1,31 @@
+{
+	"BUILD_DIR" : "/home/matteo/local/clight-gui/build/clight-gui_autogen",
+	"CMAKE_BINARY_DIR" : "/home/matteo/local/clight-gui/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/matteo/local/clight-gui/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/matteo/local/clight-gui/src",
+	"CMAKE_SOURCE_DIR" : "/home/matteo/local/clight-gui/src",
+	"INCLUDE_DIR" : "/home/matteo/local/clight-gui/build/clight-gui_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/matteo/local/clight-gui/src/resources/icons/brightness-low-dark.svg",
+		"/home/matteo/local/clight-gui/src/resources/icons/brightness-minus-dark.svg",
+		"/home/matteo/local/clight-gui/src/resources/icons/brightness-low-light.svg",
+		"/home/matteo/local/clight-gui/src/resources/icons/window-icon-dark.svg",
+		"/home/matteo/local/clight-gui/src/resources/icons/brightness-plus-dark.svg",
+		"/home/matteo/local/clight-gui/src/resources/icons/window-icon-light.svg",
+		"/home/matteo/local/clight-gui/src/resources/icons/brightness-high-light.svg",
+		"/home/matteo/local/clight-gui/src/resources/icons/brightness-minus-light.svg",
+		"/home/matteo/local/clight-gui/src/resources/icons/brightness-plus-light.svg",
+		"/home/matteo/local/clight-gui/src/resources/icons/brightness-high-dark.svg"
+	],
+	"LOCK_FILE" : "/home/matteo/local/clight-gui/build/CMakeFiles/clight-gui_autogen.dir/AutoRcc_resources_3YJK5W5UP7_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "resources" ],
+	"OUTPUT_CHECKSUM" : "3YJK5W5UP7",
+	"OUTPUT_NAME" : "qrc_resources.cpp",
+	"RCC_EXECUTABLE" : "/usr/bin/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/matteo/local/clight-gui/build/CMakeFiles/clight-gui_autogen.dir/AutoRcc_resources_3YJK5W5UP7_Used.txt",
+	"SOURCE" : "/home/matteo/local/clight-gui/src/resources/resources.qrc",
+	"VERBOSITY" : 0
+}

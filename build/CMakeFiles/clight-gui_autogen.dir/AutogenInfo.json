@@ -1,0 +1,453 @@
+{
+	"BUILD_DIR" : "/home/matteo/local/clight-gui/build/clight-gui_autogen",
+	"CMAKE_BINARY_DIR" : "/home/matteo/local/clight-gui/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/matteo/local/clight-gui/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/matteo/local/clight-gui/src",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_LIST_FILES" : 
+	[
+		"/home/matteo/local/clight-gui/src/CMakeLists.txt",
+		"/home/matteo/local/clight-gui/build/CMakeFiles/3.25.1/CMakeSystem.cmake",
+		"/usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake",
+		"/home/matteo/local/clight-gui/build/CMakeFiles/3.25.1/CMakeCCompiler.cmake",
+		"/home/matteo/local/clight-gui/build/CMakeFiles/3.25.1/CMakeCXXCompiler.cmake",
+		"/usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake",
+		"/usr/share/cmake/Modules/CMakeGenericSystem.cmake",
+		"/usr/share/cmake/Modules/CMakeInitializeConfigs.cmake",
+		"/usr/share/cmake/Modules/Platform/Linux.cmake",
+		"/usr/share/cmake/Modules/Platform/UnixPaths.cmake",
+		"/usr/share/cmake/Modules/CMakeCInformation.cmake",
+		"/usr/share/cmake/Modules/CMakeLanguageInformation.cmake",
+		"/usr/share/cmake/Modules/Compiler/GNU-C.cmake",
+		"/usr/share/cmake/Modules/Compiler/GNU.cmake",
+		"/usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
+		"/usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake",
+		"/usr/share/cmake/Modules/Platform/Linux-GNU.cmake",
+		"/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake",
+		"/usr/share/cmake/Modules/CMakeCXXInformation.cmake",
+		"/usr/share/cmake/Modules/CMakeLanguageInformation.cmake",
+		"/usr/share/cmake/Modules/Compiler/GNU-CXX.cmake",
+		"/usr/share/cmake/Modules/Compiler/GNU.cmake",
+		"/usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake",
+		"/usr/share/cmake/Modules/Platform/Linux-GNU.cmake",
+		"/usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake",
+		"/home/matteo/local/clight-gui/src/resources/translations.qrc",
+		"/usr/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/usr/lib/cmake/Qt5/Qt5Config.cmake",
+		"/usr/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/usr/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake",
+		"/usr/lib/cmake/Qt5Core/Qt5CoreConfig.cmake",
+		"/usr/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake",
+		"/usr/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
+		"/usr/lib/cmake/Qt5Core/Qt5CoreMacros.cmake",
+		"/usr/share/cmake/Modules/CMakeParseArguments.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsGbmIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QJp2Plugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QLibInputPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QMngPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QTsLibPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandEglPlatformIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeEglPlatformIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QWaylandXCompositeGlxPlatformIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake",
+		"/usr/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake",
+		"/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake",
+		"/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake",
+		"/usr/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake",
+		"/usr/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake",
+		"/usr/share/cmake/Modules/CMakeParseArguments.cmake",
+		"/usr/lib/cmake/Qt5DBus/Qt5DBusConfigVersion.cmake",
+		"/usr/lib/cmake/Qt5DBus/Qt5DBusConfig.cmake",
+		"/usr/lib/cmake/Qt5DBus/Qt5DBusConfigExtras.cmake",
+		"/usr/lib/cmake/Qt5DBus/Qt5DBusMacros.cmake",
+		"/usr/share/cmake/Modules/MacroAddFileDependencies.cmake",
+		"/usr/share/cmake/Modules/CMakeParseArguments.cmake",
+		"/usr/lib/cmake/Qt5Charts/Qt5ChartsConfigVersion.cmake",
+		"/usr/lib/cmake/Qt5Charts/Qt5ChartsConfig.cmake",
+		"/usr/lib/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake",
+		"/usr/lib/cmake/Qt5Xml/Qt5XmlConfig.cmake",
+		"/usr/lib/cmake/Qt5/Qt5ConfigVersion.cmake",
+		"/usr/lib/cmake/Qt5/Qt5Config.cmake",
+		"/usr/lib/cmake/Qt5/Qt5ModuleLocation.cmake",
+		"/usr/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfigVersion.cmake",
+		"/usr/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfig.cmake",
+		"/usr/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake",
+		"/usr/share/cmake/Modules/CMakeParseArguments.cmake",
+		"/home/matteo/local/clight-gui/build/translations.qrc",
+		"/home/matteo/local/clight-gui/src/resources/resources.qrc"
+	],
+	"CMAKE_SOURCE_DIR" : "/home/matteo/local/clight-gui/src",
+	"DEP_FILE" : "",
+	"DEP_FILE_RULE_NAME" : "",
+	"HEADERS" : 
+	[
+		[
+			"/home/matteo/local/clight-gui/src/class/BacklightEntry.h",
+			"MU",
+			"4S7MTWSL7B/moc_BacklightEntry.cpp",
+			null
+		],
+		[
+			"/home/matteo/local/clight-gui/src/class/BacklightSmooth.h",
+			"MU",
+			"4S7MTWSL7B/moc_BacklightSmooth.cpp",
+			null
+		],
+		[
+			"/home/matteo/local/clight-gui/src/class/Coordinate.h",
+			"MU",
+			"4S7MTWSL7B/moc_Coordinate.cpp",
+			null
+		],
+		[
+			"/home/matteo/local/clight-gui/src/class/GammaSmooth.h",
+			"MU",
+			"4S7MTWSL7B/moc_GammaSmooth.cpp",
+			null
+		],
+		[
+			"/home/matteo/local/clight-gui/src/class/MonitorOverride.h",
+			"MU",
+			"4S7MTWSL7B/moc_MonitorOverride.cpp",
+			null
+		],
+		[
+			"/home/matteo/local/clight-gui/src/class/ScrollSysTray.h",
+			"MU",
+			"4S7MTWSL7B/moc_ScrollSysTray.cpp",
+			null
+		],
+		[
+			"/home/matteo/local/clight-gui/src/class/SensorFrames.h",
+			"MU",
+			"4S7MTWSL7B/moc_SensorFrames.cpp",
+			null
+		],
+		[
+			"/home/matteo/local/clight-gui/src/dbus/DBusSingle.h",
+			"MU",
+			"KS3UX4TNHX/moc_DBusSingle.cpp",
+			null
+		],
+		[
+			"/home/matteo/local/clight-gui/src/gui/AddOverrideDialog.h",
+			"MU",
+			"DMHXEJ42XS/moc_AddOverrideDialog.cpp",
+			null
+		],
+		[
+			"/home/matteo/local/clight-gui/src/gui/BacklightTab.h",
+			"MU",
+			"DMHXEJ42XS/moc_BacklightTab.cpp",
+			null
+		],
+		[
+			"/home/matteo/local/clight-gui/src/gui/DaytimeTab.h",
+			"MU",
+			"DMHXEJ42XS/moc_DaytimeTab.cpp",
+			null
+		],
+		[
+			"/home/matteo/local/clight-gui/src/gui/DimmerTab.h",
+			"MU",
+			"DMHXEJ42XS/moc_DimmerTab.cpp",
+			null
+		],
+		[
+			"/home/matteo/local/clight-gui/src/gui/GammaTab.h",
+			"MU",
+			"DMHXEJ42XS/moc_GammaTab.cpp",
+			null
+		],
+		[
+			"/home/matteo/local/clight-gui/src/gui/InfoTab.h",
+			"MU",
+			"DMHXEJ42XS/moc_InfoTab.cpp",
+			null
+		],
+		[
+			"/home/matteo/local/clight-gui/src/gui/KeyboardTab.h",
+			"MU",
+			"DMHXEJ42XS/moc_KeyboardTab.cpp",
+			null
+		],
+		[
+			"/home/matteo/local/clight-gui/src/gui/MainWindow.h",
+			"MU",
+			"DMHXEJ42XS/moc_MainWindow.cpp",
+			null
+		],
+		[
+			"/home/matteo/local/clight-gui/src/gui/ScreenTab.h",
+			"MU",
+			"DMHXEJ42XS/moc_ScreenTab.cpp",
+			null
+		],
+		[
+			"/home/matteo/local/clight-gui/src/gui/SensorGraph.h",
+			"MU",
+			"DMHXEJ42XS/moc_SensorGraph.cpp",
+			null
+		],
+		[
+			"/home/matteo/local/clight-gui/src/gui/SensorTab.h",
+			"MU",
+			"DMHXEJ42XS/moc_SensorTab.cpp",
+			null
+		],
+		[
+			"/home/matteo/local/clight-gui/src/gui/TrayMenu.h",
+			"MU",
+			"DMHXEJ42XS/moc_TrayMenu.cpp",
+			null
+		],
+		[
+			"/home/matteo/local/clight-gui/src/models/BacklightPctModel.h",
+			"MU",
+			"IVK4DJNV27/moc_BacklightPctModel.cpp",
+			null
+		],
+		[
+			"/home/matteo/local/clight-gui/src/models/RegressionPointModel.h",
+			"MU",
+			"IVK4DJNV27/moc_RegressionPointModel.cpp",
+			null
+		],
+		[
+			"/home/matteo/local/clight-gui/src/util/initializeMetaTypes.h",
+			"MU",
+			"KH43KSYMFX/moc_initializeMetaTypes.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/matteo/local/clight-gui/build/clight-gui_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/matteo/local/clight-gui/build/clight-gui_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : 
+	[
+		"QT_CHARTS_LIB",
+		"QT_CORE_LIB",
+		"QT_DBUS_LIB",
+		"QT_GUI_LIB",
+		"QT_NO_DEBUG",
+		"QT_WIDGETS_LIB",
+		"QT_XML_LIB",
+		"RELVER=\"r91.079bd99\""
+	],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/matteo/local/clight-gui/build",
+		"/usr/include/qt",
+		"/usr/include/qt/QtCore",
+		"/usr/lib/qt/mkspecs/linux-g++",
+		"/usr/include/qt/QtGui",
+		"/usr/include/qt/QtWidgets",
+		"/usr/include/qt/QtDBus",
+		"/usr/include/qt/QtCharts",
+		"/usr/include/qt/QtXml",
+		"/usr/include/c++/12.2.0",
+		"/usr/include/c++/12.2.0/x86_64-pc-linux-gnu",
+		"/usr/include/c++/12.2.0/backward",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include",
+		"/usr/local/include",
+		"/usr/lib/gcc/x86_64-pc-linux-gnu/12.2.0/include-fixed",
+		"/usr/include"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE", "Q_NAMESPACE_EXPORT" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"/usr/bin/c++",
+		"-dM",
+		"-E",
+		"-c",
+		"/usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "/home/matteo/local/clight-gui/build/clight-gui_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : 
+	[
+		"/home/matteo/local/clight-gui/build/Backlight.cpp",
+		"/home/matteo/local/clight-gui/build/Backlight.h",
+		"/home/matteo/local/clight-gui/build/Conf.cpp",
+		"/home/matteo/local/clight-gui/build/Conf.h",
+		"/home/matteo/local/clight-gui/build/Daytime.cpp",
+		"/home/matteo/local/clight-gui/build/Daytime.h",
+		"/home/matteo/local/clight-gui/build/Dimmer.cpp",
+		"/home/matteo/local/clight-gui/build/Dimmer.h",
+		"/home/matteo/local/clight-gui/build/Dpms.cpp",
+		"/home/matteo/local/clight-gui/build/Dpms.h",
+		"/home/matteo/local/clight-gui/build/Gamma.cpp",
+		"/home/matteo/local/clight-gui/build/Gamma.h",
+		"/home/matteo/local/clight-gui/build/Inhibit.cpp",
+		"/home/matteo/local/clight-gui/build/Inhibit.h",
+		"/home/matteo/local/clight-gui/build/Kbd.cpp",
+		"/home/matteo/local/clight-gui/build/Kbd.h",
+		"/home/matteo/local/clight-gui/build/MonitorOverride.cpp",
+		"/home/matteo/local/clight-gui/build/MonitorOverride.h",
+		"/home/matteo/local/clight-gui/build/Screen.cpp",
+		"/home/matteo/local/clight-gui/build/Screen.h",
+		"/home/matteo/local/clight-gui/build/Sensor.cpp",
+		"/home/matteo/local/clight-gui/build/Sensor.h",
+		"/home/matteo/local/clight-gui/build/SysBacklight.cpp",
+		"/home/matteo/local/clight-gui/build/SysBacklight.h",
+		"/home/matteo/local/clight-gui/build/SysDpms.cpp",
+		"/home/matteo/local/clight-gui/build/SysDpms.h",
+		"/home/matteo/local/clight-gui/build/SysGamma.cpp",
+		"/home/matteo/local/clight-gui/build/SysGamma.h",
+		"/home/matteo/local/clight-gui/build/SysScreen.cpp",
+		"/home/matteo/local/clight-gui/build/SysScreen.h",
+		"/home/matteo/local/clight-gui/build/SysSensor.cpp",
+		"/home/matteo/local/clight-gui/build/SysSensor.h",
+		"/home/matteo/local/clight-gui/build/clight.cpp",
+		"/home/matteo/local/clight-gui/build/clight.h"
+	],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "/home/matteo/local/clight-gui/build/CMakeFiles/clight-gui_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/bin/moc",
+	"QT_UIC_EXECUTABLE" : "/usr/bin/uic",
+	"QT_VERSION_MAJOR" : 5,
+	"QT_VERSION_MINOR" : 15,
+	"SETTINGS_FILE" : "/home/matteo/local/clight-gui/build/CMakeFiles/clight-gui_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/matteo/local/clight-gui/src/class/BacklightEntry.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/matteo/local/clight-gui/src/class/BacklightSmooth.cpp",
+			"MU",
+			null
+		],
+		[ "/home/matteo/local/clight-gui/src/class/Coordinate.cpp", "MU", null ],
+		[ "/home/matteo/local/clight-gui/src/class/GammaSmooth.cpp", "MU", null ],
+		[
+			"/home/matteo/local/clight-gui/src/class/MonitorOverride.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/matteo/local/clight-gui/src/class/ScrollSysTray.cpp",
+			"MU",
+			null
+		],
+		[ "/home/matteo/local/clight-gui/src/dbus/DBusSingle.cpp", "MU", null ],
+		[
+			"/home/matteo/local/clight-gui/src/gui/AddOverrideDialog.cpp",
+			"MU",
+			null
+		],
+		[ "/home/matteo/local/clight-gui/src/gui/BacklightTab.cpp", "MU", null ],
+		[ "/home/matteo/local/clight-gui/src/gui/DaytimeTab.cpp", "MU", null ],
+		[ "/home/matteo/local/clight-gui/src/gui/DimmerTab.cpp", "MU", null ],
+		[ "/home/matteo/local/clight-gui/src/gui/GammaTab.cpp", "MU", null ],
+		[ "/home/matteo/local/clight-gui/src/gui/InfoTab.cpp", "MU", null ],
+		[ "/home/matteo/local/clight-gui/src/gui/KeyboardTab.cpp", "MU", null ],
+		[ "/home/matteo/local/clight-gui/src/gui/MainWindow.cpp", "MU", null ],
+		[ "/home/matteo/local/clight-gui/src/gui/ScreenTab.cpp", "MU", null ],
+		[ "/home/matteo/local/clight-gui/src/gui/SensorGraph.cpp", "MU", null ],
+		[ "/home/matteo/local/clight-gui/src/gui/SensorTab.cpp", "MU", null ],
+		[ "/home/matteo/local/clight-gui/src/gui/TrayMenu.cpp", "MU", null ],
+		[ "/home/matteo/local/clight-gui/src/main.cpp", "MU", null ],
+		[
+			"/home/matteo/local/clight-gui/src/models/BacklightPctModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/matteo/local/clight-gui/src/models/RegressionPointModel.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/matteo/local/clight-gui/src/util/initializeMetaTypes.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : 
+	[
+		"/home/matteo/local/clight-gui/build/Backlight.cpp",
+		"/home/matteo/local/clight-gui/build/Backlight.h",
+		"/home/matteo/local/clight-gui/build/Conf.cpp",
+		"/home/matteo/local/clight-gui/build/Conf.h",
+		"/home/matteo/local/clight-gui/build/Daytime.cpp",
+		"/home/matteo/local/clight-gui/build/Daytime.h",
+		"/home/matteo/local/clight-gui/build/Dimmer.cpp",
+		"/home/matteo/local/clight-gui/build/Dimmer.h",
+		"/home/matteo/local/clight-gui/build/Dpms.cpp",
+		"/home/matteo/local/clight-gui/build/Dpms.h",
+		"/home/matteo/local/clight-gui/build/Gamma.cpp",
+		"/home/matteo/local/clight-gui/build/Gamma.h",
+		"/home/matteo/local/clight-gui/build/Inhibit.cpp",
+		"/home/matteo/local/clight-gui/build/Inhibit.h",
+		"/home/matteo/local/clight-gui/build/Kbd.cpp",
+		"/home/matteo/local/clight-gui/build/Kbd.h",
+		"/home/matteo/local/clight-gui/build/MonitorOverride.cpp",
+		"/home/matteo/local/clight-gui/build/MonitorOverride.h",
+		"/home/matteo/local/clight-gui/build/Screen.cpp",
+		"/home/matteo/local/clight-gui/build/Screen.h",
+		"/home/matteo/local/clight-gui/build/Sensor.cpp",
+		"/home/matteo/local/clight-gui/build/Sensor.h",
+		"/home/matteo/local/clight-gui/build/SysBacklight.cpp",
+		"/home/matteo/local/clight-gui/build/SysBacklight.h",
+		"/home/matteo/local/clight-gui/build/SysDpms.cpp",
+		"/home/matteo/local/clight-gui/build/SysDpms.h",
+		"/home/matteo/local/clight-gui/build/SysGamma.cpp",
+		"/home/matteo/local/clight-gui/build/SysGamma.h",
+		"/home/matteo/local/clight-gui/build/SysScreen.cpp",
+		"/home/matteo/local/clight-gui/build/SysScreen.h",
+		"/home/matteo/local/clight-gui/build/SysSensor.cpp",
+		"/home/matteo/local/clight-gui/build/SysSensor.h",
+		"/home/matteo/local/clight-gui/build/clight.cpp",
+		"/home/matteo/local/clight-gui/build/clight.h"
+	],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}
